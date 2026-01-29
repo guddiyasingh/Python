@@ -18,3 +18,10 @@ cgpa = 8.9
 print(cgpa)
 print(type(cgpa))
 
+name = "Guddiya"
+print(name)
+print(type(name))
+
+is_student = True
+print(is_student)
+print(type(is_student))
