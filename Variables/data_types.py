@@ -12,3 +12,9 @@
 a = 34
 print(a)
 print(type(a))
+
+
+cgpa = 8.9
+print(cgpa)
+print(type(cgpa))
+
