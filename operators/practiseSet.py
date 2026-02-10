@@ -11,3 +11,7 @@ is_student = True
 
 print("The name of the student is" + name + "and her age is" + str(age) + "years. "
 "she is " + str(height) + "feet tall and it is " + str(is_student) + "that she is a student.")
+
+# convert it into an integer and add 10 to it print the result
+num ="20"
+print (int(num) + 10)
