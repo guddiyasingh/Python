@@ -40,3 +40,15 @@ print("The quotient of the two numbers is " + str(a/b))
 # print the following output using escape sequences
 
 print("Harry said python is awsome, \n This is anew line.'\t' this is a tab space")
+
+
+# Take an int as input from the  user
+
+# print squre and cube of the number
+
+num = int(input("Enter a number:"))
+
+print("The squre of the number is " + str(num**2))
+print("The cube of the number is " + str(num**3))
+
+
