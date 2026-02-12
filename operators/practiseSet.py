@@ -52,3 +52,5 @@ print("The squre of the number is " + str(num**2))
 print("The cube of the number is " + str(num**3))
 
 
+
+# print squre and cube of the number
