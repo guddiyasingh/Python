@@ -4,4 +4,4 @@
 # print(4)
               
 for i in range(1,11):
-   print(i)         
+   print("5 X", i ,"=", 5*i)         
