@@ -7,3 +7,4 @@ if(age>18):
 elif(age<=18):
     print("you are a minor")
     print("you cannot vote")
+
