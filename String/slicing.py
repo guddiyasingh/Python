@@ -10,3 +10,6 @@ print("Enter index number \n")
 print(name1[0:10:4])
 print(name1[0:10:3])
 print(name1[0:10:1])
+
+
+print(name1[:4]) #Replace the first empty number 0 #name[0:4]
