@@ -56,4 +56,19 @@ print(texe1.title())
 
 print(texe1.count("o"))
 
+# 2. Check if the string "123abc" alphanumeric
+
+str1 = "123abc"
+if str1.isalnum() :
+    print("Yes this string is alphanumeric")
+else :
+    print("No this string is not alphanumeric")    
+ 
+
+# @ STRING FORMATTING AND f-strings
+
+# 1.Using format() , create a sentance
+
+# My name is johan and I am 25 years old
+# by passing "johan" and 25 as variables
 
