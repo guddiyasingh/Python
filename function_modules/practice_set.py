@@ -18,3 +18,16 @@ def squre(x):
 print(squre(3))
 print(squre(2))
 print(squre(4))
+
+
+# B. Function Arguments and Return value
+
+# Write function full name (first_last) that takes name and last name as parametrs and returns 
+# as a single 
+
+
+def full_name(first,last):
+    return f"{first} {last}"
+
+
+print(full_name("jhon", "doe"))
