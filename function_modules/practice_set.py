@@ -31,3 +31,29 @@ def full_name(first,last):
 
 
 print(full_name("jhon", "doe"))
+
+
+# C.Lambda And functions
+
+# 1. Write a lambda function that adds two numbers
+
+add = lambda x,y: x+y
+print(add(1,2))
+
+# 2. create a list [1,2,3,4,5] and use map() with a lambda function their sqaure
+
+x = [1,2,3,4,5]
+
+def squre(x):
+    return x*x
+
+result = map(squre,x)
+print (list(result))
+
+squre = lambda x: x*x
+result = map(squre,x)
+print(list(result))
+
+# D.Recursion on python
+
+# 1.Write a recursion function factorial(n) that returns the factorials
