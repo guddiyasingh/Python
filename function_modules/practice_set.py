@@ -57,3 +57,9 @@ print(list(result))
 # D.Recursion on python
 
 # 1.Write a recursion function factorial(n) that returns the factorials
+
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    return factorial(n-1)*n
+print (factorial(5))  
